@@ -2,4 +2,5 @@ id: "antmicro-thor-agx-baseboard-enclosure-hwm"
 name: "Antmicro Jetson Thor AGX Enclosure"
 description: ""
 vendor: "antmicro"
+camera: "CUSTOM"
 source_blends: blend
