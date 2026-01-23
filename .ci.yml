@@ -1,2 +1,0 @@
-include: antmicro-pcb-release-ci-template@main:.assembly-repo-ci.yml
-
