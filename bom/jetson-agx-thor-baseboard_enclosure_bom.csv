@@ -1,0 +1,15 @@
+MPN,Manufacturer,Name,Description,Quantity
+-,CNC manufactured,Thor_Bottom,Bottom enclosure body,1
+-,CNC manufactured,Thor_Top,Top enclosure body,1
+-,CNC manufactured,Thor_Front,Front enclosure lid,1
+-,CNC manufactured,Thor_Back,Back enclosure lid,1
+-,CNC manufactured,Thor_Heatsink,Heatsink ,1
+-,3D printed,shroud_EF50151BX-1B00U-A99,Blower shroud,1
+5402872,BOSSARD,M4x18,Blower fasteners,4
+1250701,BOSSARD,M2.5x8 countersunk,Front lid fasteners,4
+1250701,BOSSARD,M2.5x8 countersunk,Back lid fasteners,4
+1154257,BOSSARD,M3x8 ,Handle fasteners ,2
+1536907,BOSSARD,M2.5x10 countersunk,Baseboard fasteners,7
+1282.1200,MENTOR,,USB-C light guides,5
+EF50151BX-1B000-A99,Sunon,,Blower,2
+GN 425-6-88-BT,Ganter,,Handle,1
