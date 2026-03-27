@@ -38,24 +38,28 @@ The graphic below presents the mechanical outline of the enclosure, along with t
 
 The thermal performance of the cooling solution under a 130W load (the maximum SoM TDP) was analyzed using CFD simulation.
 
-The simulated setup consists of:
+### Simulation geometries
 * Jetson AGX Thor Baseboard enclosure
-* Radiator
-* Jetson AGX Thor SoM TTP
+* [Heatsink](./step/Thor_Heatsink.step)
+* Jetson AGX Thor SoM TTP (Thermal Transfer Plate)
 * Jetson AGX Thor Baseboard
-* 2x Sunon blower `EF50151BX-1B000-A99`
-* Shroud
+* 2x Blower type fan - Sunon EF50151BX-1B000-A99
+* [Shroud](./step/shroud_EF50151BX-1B00U-A99.step)
 
-Environment:
+### Materials constraints
+* Jetson AGX Thor SoM TTP: aluminum
+* Jetson AGX Thor Baseboard enclosure: aluminum
+* [Heatsink](./step/Thor_Heatsink.step): copper
+
+### Simulation constraints
 * Ambient temperature of 23°C
 * 130W heat source applied to the Jetson AGX Thor SoM TTP
-* Flow rate constrained to adapt to the static pressure at the blower outlets, according to the [manufacturer's documentation](https://www.tme.eu/Document/c6d686cda46ac43be5a79f802eb95b53/Product+11.pdf)
+* Flow rate source adaptive to the performance curve derived from the [manufacturer's documentation](https://www.tme.eu/Document/c6d686cda46ac43be5a79f802eb95b53/Product+11.pdf)
 
+### Simulation results
 ![](./img/simulation.gif)
 
-**Peak Temperature**: 74°C (Jetson AGX Thor SoM TTP to radiator interface) 
-
-![Thermal simulation results](img/radiator-max-c.png)
+**Peak Temperature**: 74°C (Jetson AGX Thor SoM TTP to heatsink interface) 
 
 The simulation confirms that the designed thermal solution meets the thermal management requirements specified in the [official NVIDIA documentation](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson_thor_thermal_dg_tdg12271001.pdf).
 
