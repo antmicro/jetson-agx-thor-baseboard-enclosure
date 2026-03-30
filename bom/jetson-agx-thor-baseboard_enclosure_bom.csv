@@ -1,10 +1,10 @@
 MPN,Manufacturer,Name,Description,Quantity
--,CNC manufactured,Thor_Bottom,Bottom enclosure body,1
--,CNC manufactured,Thor_Top,Top enclosure body,1
--,CNC manufactured,Thor_Front,Front enclosure lid,1
--,CNC manufactured,Thor_Back,Back enclosure lid,1
--,CNC manufactured,Thor_Heatsink,Heatsink ,1
--,3D printed,shroud_EF50151BX-1B00U-A99,Blower shroud,1
+-,CNC manufactured,cnc_milled_bottom_shell_al,Bottom enclosure body,1
+-,CNC manufactured,cnc_milled_top_cover_al,Top enclosure body,1
+-,CNC manufactured,cnc_milled_front_panel_al,Front enclosure lid,1
+-,CNC manufactured,cnc_milled_back_panel_al,Back enclosure lid,1
+-,CNC manufactured,cnc_milled_som_heatsink_cu,Heatsink ,1
+-,3D printed,3d_printed_fan_shroud_pc,Blower shroud,1
 5402872,BOSSARD,M4x18,Blower fasteners,4
 1250701,BOSSARD,M2.5x8 countersunk,Front lid fasteners,4
 1250701,BOSSARD,M2.5x8 countersunk,Back lid fasteners,4
