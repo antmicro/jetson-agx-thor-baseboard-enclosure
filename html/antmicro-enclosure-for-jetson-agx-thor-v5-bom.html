@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Antmicro STEPhen - antmicro_enclosure_for_jetson_agx_thor v5 Bill of Materials</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: hsla(210, 8%, 93%, 1);
+            padding: 0;
+            margin: 0;
+            font-family: Inter, sans-serif;
+        }
+
+        div.header {
+            background-color: hsla(210, 6%, 8%, 1);
+            border-bottom: 1px solid hsla(210, 6%, 16%, 1);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            min-height: 65px;
+            padding: 8px 0;
+            box-sizing: border-box;
+        }
+
+        div.header_content {
+            padding: 10px;
+            padding-left: 1rem;
+            line-height: 1.25;
+            font-size: 0.875rem;
+        }
+
+        div.header_sep {
+            padding: 0 4px;
+            color: #94999e;
+            font-size: 0.875rem;
+        }
+
+        table, p {
+            width: 97%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .table-wrapper {
+            width: 97%;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        table {
+            border: 1px solid hsla(210, 6%, 16%, 1);
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 600px;
+        }
+
+        thead th {
+            background-color: hsla(210, 6%, 8%, 1);
+            height: 36px;
+            text-align: left;
+            font-weight: 600;
+            color: #94999e;
+        }
+
+        th, td {
+            border: 1px solid hsla(210, 6%, 16%, 1);
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        td:nth-child(4), thead th:nth-child(4) {
+            text-align: center;
+        }
+
+        tbody tr th[scope="row"] {
+            background-color: transparent;
+            font-weight: 500;
+        }
+
+        .part-name-cell {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .part-preview {
+            width: 100px;
+            height: auto;
+            flex-shrink: 0;
+            filter: invert(1);
+        }
+
+        @media (max-width: 600px) {
+            .part-preview {
+                width: 50px;
+            }
+
+            div.header_content,
+            div.header_sep {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+
+        .metadata-label {
+            color: #94999e;
+            font-weight: 400;
+        }
+
+        .step-model {
+            font-family: 'Geist Mono', monospace;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_content"><img src="logo.svg" style="padding-top: 7px; height: 32px;"></div>
+        
+        <div class="header_sep">/</div>
+        <div class="header_content">Bill of Materials</div>
+        <div class="header_sep">/</div>
+        <div class="header_content">antmicro_enclosure_for_jetson_agx_thor v5</div>
+    </div>
+    <p class="metadata">
+        <span class="metadata-label">Time stamp:</span> 2026-04-03T13:15:11.353730+02:00<br>
+        <span class="metadata-label">Git commit SHA:</span> a7bc71eff5a8d3d573e40bbb5be4509a83223ace<br>
+        <span class="metadata-label">Git commit message:</span> [#94115] Update assembly file
+    </p>
+    <div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Part</th>
+                <th scope="col">Part number</th>
+                <th scope="col" style="width: 25%">Description</th>
+                <th scope="col">Qty</th>
+                <th scope="col">STEP model</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/3d-printed-fan-shroud-pc.svg">
+                        3d_printed_fan_shroud_pc
+                    </div>
+                </th>
+                <td>P-JAT-FS-PC-N</td>
+                <td>Directs internal airflow to improve thermal management efficiency</td>
+                <td>1</td>
+                <td><span class="step-model">3d-printed-fan-shroud-pc.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/countersunk-head-screw-din-en-iso-7046-2-m2-5-x-10-h-steel-4-6-plain-v1.svg">
+                        Countersunk Head Screw DIN EN ISO 7046-2 - M2.5 x 10 - H Steel 4.6 Plain v1
+                    </div>
+                </th>
+                <td>DIN EN ISO 7046-2 - M2.5x10 - H Steel 4.6 Plain</td>
+                <td>Countersunk Head Screw DIN EN ISO 7046-2 - M2.5 x 10 - H</td>
+                <td>7</td>
+                <td><span class="step-model">countersunk-head-screw-din-en-iso-7046-2-m2-5-x-10-h-steel-4-6-plain-v1.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/countersunk-head-screw-din-en-iso-7046-2-m2-5-x-8-h-steel-4-6-plain-v1.svg">
+                        Countersunk Head Screw DIN EN ISO 7046-2 - M2.5 x 8 - H Steel 4.6 Plain v1
+                    </div>
+                </th>
+                <td>DIN EN ISO 7046-2 - M2.5x8 - H Steel 4.6 Plain</td>
+                <td>Countersunk Head Screw DIN EN ISO 7046-2 - M2.5 x 8 - H</td>
+                <td>8</td>
+                <td><span class="step-model">countersunk-head-screw-din-en-iso-7046-2-m2-5-x-8-h-steel-4-6-plain-v1.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/raised-cheese-head-screw-din-7985-m4-x-18-h-steel-4-6-plain-v1.svg">
+                        Raised Cheese Head Screw DIN 7985 - M4 x 18 - H Steel 4.6 Plain v1
+                    </div>
+                </th>
+                <td>DIN 7985 - M4x18-H H Steel 4.6 Plain</td>
+                <td>Raised Cheese Head Screw DIN 7985 - M4 x 18 - H</td>
+                <td>4</td>
+                <td><span class="step-model">raised-cheese-head-screw-din-7985-m4-x-18-h-steel-4-6-plain-v1.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/raised-cheese-head-screw-din-7985-m4-x-8-h-steel-4-6-plain-v1.svg">
+                        Raised Cheese Head Screw DIN 7985 - M4 x 8 - H Steel 4.6 Plain v1
+                    </div>
+                </th>
+                <td>DIN 7985 - M4x8-H H Steel 4.6 Plain</td>
+                <td>Raised Cheese Head Screw DIN 7985 - M4 x 8 - H</td>
+                <td>2</td>
+                <td><span class="step-model">raised-cheese-head-screw-din-7985-m4-x-8-h-steel-4-6-plain-v1.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cnc-milled-back-panel-al.svg">
+                        cnc_milled_back_panel_al
+                    </div>
+                </th>
+                <td>C-JAT-BP-AL-A</td>
+                <td>Rear panel with vertical ribs for air exhaust</td>
+                <td>1</td>
+                <td><span class="step-model">cnc-milled-back-panel-al.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cnc-milled-bottom-shell-al.svg">
+                        cnc_milled_bottom_shell_al
+                    </div>
+                </th>
+                <td>C-JAT-BS-AL-A</td>
+                <td>Main body with internal PCB mounting points and external enclosure mounting features</td>
+                <td>1</td>
+                <td><span class="step-model">cnc-milled-bottom-shell-al.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cnc-milled-front-panel.svg">
+                        cnc_milled_front_panel
+                    </div>
+                </th>
+                <td>C-JAT-FP-AL-A</td>
+                <td>Front panel serving as primary air inlet and interface surface</td>
+                <td>1</td>
+                <td><span class="step-model">cnc-milled-front-panel.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cnc-milled-som-heatsink-cu.svg">
+                        cnc_milled_som_heatsink_cu
+                    </div>
+                </th>
+                <td>C-JAT-SH-CU-N</td>
+                <td>Facilitates heat dissipation from the module to maintain optimal operating temperatures - use high purity copper for best thermal performance</td>
+                <td>1</td>
+                <td><span class="step-model">cnc-milled-som-heatsink-cu.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cnc-milled-top-cover-al.svg">
+                        cnc_milled_top_cover_al
+                    </div>
+                </th>
+                <td>C-JAT-TC-AL-A</td>
+                <td>Top lid providing structural closure and mounting points for fan blowers</td>
+                <td>1</td>
+                <td><span class="step-model">cnc-milled-top-cover-al.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cots-elesa-ganter-gn-425-8-88-bt-v4.svg">
+                        cots_Elesa_Ganter_GN_425-8-88-BT v4
+                    </div>
+                </th>
+                <td>GN 425-6-88-BT</td>
+                <td>Grip for carrying the enclosure and enabling stacking and clustering</td>
+                <td>1</td>
+                <td><span class="step-model">cots-elesa-ganter-gn-425-8-88-bt-v4.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cots-mentor-1282-1200-v6.svg">
+                        cots_Mentor_1282.1200 v6
+                    </div>
+                </th>
+                <td>1282.1200</td>
+                <td>Transparent plastic light pipe panel-mounted</td>
+                <td>5</td>
+                <td><span class="step-model">cots-mentor-1282-1200-v6.step</span></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">
+                    <div class="part-name-cell">
+                        <img class="part-preview" src="../svg/cots-sunon-ef50151bx-1b000-a99-v7.svg">
+                        cots_Sunon_EF50151BX-1B000-A99 v7
+                    </div>
+                </th>
+                <td>EF50151BX-1B000-A99</td>
+                <td>12V DC blower fan for enclosure airflow - 50x50x15mm</td>
+                <td>2</td>
+                <td><span class="step-model">cots-sunon-ef50151bx-1b000-a99-v7.step</span></td>
+            </tr>
+            
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

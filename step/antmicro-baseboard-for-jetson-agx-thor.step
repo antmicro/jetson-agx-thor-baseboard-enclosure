@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'antmicro_enclosure_for_jetson_agx_thor.step',
-/* time_stamp */ '2026-03-30T19:04:06+02:00',
+/* name */ 'antmicro-baseboard-for-jetson-agx-thor.step',
+/* time_stamp */ '2026-04-03T13:07:22+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -281,21 +281,21 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #120=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#84,#43298);
 #121=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#85,#43299);
 #122=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#86,#43300);
-#123=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v2:1',
-'cots_Mentor_1282.1200 v2:1','cots_Mentor_1282.1200 v2:1',#43326,#43327,
-'cots_Mentor_1282.1200 v2:1');
-#124=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v2:2',
-'cots_Mentor_1282.1200 v2:2','cots_Mentor_1282.1200 v2:2',#43326,#43327,
-'cots_Mentor_1282.1200 v2:2');
-#125=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v2:4',
-'cots_Mentor_1282.1200 v2:4','cots_Mentor_1282.1200 v2:4',#43326,#43327,
-'cots_Mentor_1282.1200 v2:4');
-#126=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v2:3',
-'cots_Mentor_1282.1200 v2:3','cots_Mentor_1282.1200 v2:3',#43326,#43327,
-'cots_Mentor_1282.1200 v2:3');
-#127=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v2:5',
-'cots_Mentor_1282.1200 v2:5','cots_Mentor_1282.1200 v2:5',#43326,#43327,
-'cots_Mentor_1282.1200 v2:5');
+#123=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v6:1',
+'cots_Mentor_1282.1200 v6:1','cots_Mentor_1282.1200 v6:1',#43326,#43327,
+'cots_Mentor_1282.1200 v6:1');
+#124=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v6:2',
+'cots_Mentor_1282.1200 v6:2','cots_Mentor_1282.1200 v6:2',#43326,#43327,
+'cots_Mentor_1282.1200 v6:2');
+#125=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v6:4',
+'cots_Mentor_1282.1200 v6:4','cots_Mentor_1282.1200 v6:4',#43326,#43327,
+'cots_Mentor_1282.1200 v6:4');
+#126=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v6:3',
+'cots_Mentor_1282.1200 v6:3','cots_Mentor_1282.1200 v6:3',#43326,#43327,
+'cots_Mentor_1282.1200 v6:3');
+#127=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cots_Mentor_1282.1200 v6:5',
+'cots_Mentor_1282.1200 v6:5','cots_Mentor_1282.1200 v6:5',#43326,#43327,
+'cots_Mentor_1282.1200 v6:5');
 #128=NEXT_ASSEMBLY_USAGE_OCCURRENCE('cnc_milled_top_cover_al:1',
 'cnc_milled_top_cover_al:1','cnc_milled_top_cover_al:1',#43317,#43318,
 'cnc_milled_top_cover_al:1');
@@ -485,20 +485,20 @@ ain v1:7');
 'cnc_milled_back_panel_al:1','cnc_milled_back_panel_al:1',#43317,#43328,
 'cnc_milled_back_panel_al:1');
 #155=NEXT_ASSEMBLY_USAGE_OCCURRENCE(
-'cots_Elesa_Ganter_GN_425-8-88-BT v1:1',
-'cots_Elesa_Ganter_GN_425-8-88-BT v1:1',
-'cots_Elesa_Ganter_GN_425-8-88-BT v1:1',#43317,#43329,
-'cots_Elesa_Ganter_GN_425-8-88-BT v1:1');
+'cots_Elesa_Ganter_GN_425-8-88-BT v4:1',
+'cots_Elesa_Ganter_GN_425-8-88-BT v4:1',
+'cots_Elesa_Ganter_GN_425-8-88-BT v4:1',#43317,#43329,
+'cots_Elesa_Ganter_GN_425-8-88-BT v4:1');
 #156=NEXT_ASSEMBLY_USAGE_OCCURRENCE(
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:1',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:1',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:1',#43317,#43330,
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:1');
+'cots_Sunon_EF50151BX-1B000-A99 v7:1',
+'cots_Sunon_EF50151BX-1B000-A99 v7:1',
+'cots_Sunon_EF50151BX-1B000-A99 v7:1',#43317,#43330,
+'cots_Sunon_EF50151BX-1B000-A99 v7:1');
 #157=NEXT_ASSEMBLY_USAGE_OCCURRENCE(
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:2',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:2',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:2',#43317,#43330,
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4:2');
+'cots_Sunon_EF50151BX-1B000-A99 v7:2',
+'cots_Sunon_EF50151BX-1B000-A99 v7:2',
+'cots_Sunon_EF50151BX-1B000-A99 v7:2',#43317,#43330,
+'cots_Sunon_EF50151BX-1B000-A99 v7:2');
 #158=NEXT_ASSEMBLY_USAGE_OCCURRENCE('3d_printed_fan_shroud_pc:1',
 '3d_printed_fan_shroud_pc:1','3d_printed_fan_shroud_pc:1',#43317,#43331,
 '3d_printed_fan_shroud_pc:1');
@@ -45699,14 +45699,14 @@ SOLID_ANGLE_UNIT()
 #43314=SHAPE_REPRESENTATION('',(#27234),#43228);
 #43315=SHAPE_REPRESENTATION('',(#27313),#43229);
 #43316=PRODUCT_DEFINITION_CONTEXT('part definition',#43363,'design');
-#43317=PRODUCT_DEFINITION('jetson-agx-thor-baseboard 1',
-'antmicro_enclosure_for_jetson_agx_thor v167',#43332,#43316);
-#43318=PRODUCT_DEFINITION('cnc_milled_top_cover_al',
-'cnc_milled_top_cover_al',#43333,#43316);
-#43319=PRODUCT_DEFINITION('cnc_milled_front_panel',
-'cnc_milled_front_panel',#43334,#43316);
-#43320=PRODUCT_DEFINITION('bottom_mpn','cnc_milled_bottom_shell_al',#43335,
+#43317=PRODUCT_DEFINITION('Configuration 1',
+'antmicro_enclosure_for_jetson_agx_thor v5',#43332,#43316);
+#43318=PRODUCT_DEFINITION('C-JAT-TC-AL-A','cnc_milled_top_cover_al',#43333,
 #43316);
+#43319=PRODUCT_DEFINITION('C-JAT-FP-AL-A','cnc_milled_front_panel',#43334,
+#43316);
+#43320=PRODUCT_DEFINITION('C-JAT-BS-AL-A','cnc_milled_bottom_shell_al',
+#43335,#43316);
 #43321=PRODUCT_DEFINITION('DIN 7985 - M4x8-H H Steel 4.6 Plain',
 'Raised Cheese Head Screw DIN 7985 - M4 x 8 - H Steel 4.6 Plain v1',#43336,
 #43316);
@@ -45721,19 +45721,19 @@ ain v1',#43338,#43316);
 #43324=PRODUCT_DEFINITION('DIN 7985 - M4x18-H H Steel 4.6 Plain',
 'Raised Cheese Head Screw DIN 7985 - M4 x 18 - H Steel 4.6 Plain v1',#43339,
 #43316);
-#43325=PRODUCT_DEFINITION('cnc_milled_som_heatsink_cu',
-'cnc_milled_som_heatsink_cu',#43340,#43316);
+#43325=PRODUCT_DEFINITION('C-JAT-SH-CU-N','cnc_milled_som_heatsink_cu',
+#43340,#43316);
 #43326=PRODUCT_DEFINITION('Lightguides','Lightguides',#43341,#43316);
-#43327=PRODUCT_DEFINITION('cots_Mentor_1282.1200',
-'cots_Mentor_1282.1200 v2',#43342,#43316);
-#43328=PRODUCT_DEFINITION('cnc_milled_back_panel_al',
-'cnc_milled_back_panel_al',#43343,#43316);
-#43329=PRODUCT_DEFINITION('Cabinet U-Handle, Steel GN 425-6-88-BT',
-'cots_Elesa_Ganter_GN_425-8-88-BT v1',#43344,#43316);
-#43330=PRODUCT_DEFINITION('cots_Sunon_EF50151BX-1B000-A99_sunon',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4',#43345,#43316);
-#43331=PRODUCT_DEFINITION('3d_printed_fan_shroud_pc',
-'3d_printed_fan_shroud_pc',#43346,#43316);
+#43327=PRODUCT_DEFINITION('1282.1200','cots_Mentor_1282.1200 v6',#43342,
+#43316);
+#43328=PRODUCT_DEFINITION('C-JAT-BP-AL-A','cnc_milled_back_panel_al',#43343,
+#43316);
+#43329=PRODUCT_DEFINITION('GN 425-6-88-BT',
+'cots_Elesa_Ganter_GN_425-8-88-BT v4',#43344,#43316);
+#43330=PRODUCT_DEFINITION('EF50151BX-1B000-A99',
+'cots_Sunon_EF50151BX-1B000-A99 v7',#43345,#43316);
+#43331=PRODUCT_DEFINITION('P-JAT-FS-PC-N','3d_printed_fan_shroud_pc',#43346,
+#43316);
 #43332=PRODUCT_DEFINITION_FORMATION('',$,#43365);
 #43333=PRODUCT_DEFINITION_FORMATION('',$,#43366);
 #43334=PRODUCT_DEFINITION_FORMATION('',$,#43367);
@@ -45750,8 +45750,8 @@ ain v1',#43338,#43316);
 #43345=PRODUCT_DEFINITION_FORMATION('',$,#43378);
 #43346=PRODUCT_DEFINITION_FORMATION('',$,#43379);
 #43347=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'antmicro_enclosure_for_jetson_agx_thor v167',
-'antmicro_enclosure_for_jetson_agx_thor v167',(#43365));
+'antmicro_enclosure_for_jetson_agx_thor v5',
+'antmicro_enclosure_for_jetson_agx_thor v5',(#43365));
 #43348=PRODUCT_RELATED_PRODUCT_CATEGORY('cnc_milled_top_cover_al',
 'cnc_milled_top_cover_al',(#43366));
 #43349=PRODUCT_RELATED_PRODUCT_CATEGORY('cnc_milled_front_panel',
@@ -45777,16 +45777,16 @@ ain v1',(#43371));
 #43355=PRODUCT_RELATED_PRODUCT_CATEGORY('cnc_milled_som_heatsink_cu',
 'cnc_milled_som_heatsink_cu',(#43373));
 #43356=PRODUCT_RELATED_PRODUCT_CATEGORY('Lightguides','Lightguides',(#43374));
-#43357=PRODUCT_RELATED_PRODUCT_CATEGORY('cots_Mentor_1282.1200 v2',
-'cots_Mentor_1282.1200 v2',(#43375));
+#43357=PRODUCT_RELATED_PRODUCT_CATEGORY('cots_Mentor_1282.1200 v6',
+'cots_Mentor_1282.1200 v6',(#43375));
 #43358=PRODUCT_RELATED_PRODUCT_CATEGORY('cnc_milled_back_panel_al',
 'cnc_milled_back_panel_al',(#43376));
 #43359=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'cots_Elesa_Ganter_GN_425-8-88-BT v1',
-'cots_Elesa_Ganter_GN_425-8-88-BT v1',(#43377));
+'cots_Elesa_Ganter_GN_425-8-88-BT v4',
+'cots_Elesa_Ganter_GN_425-8-88-BT v4',(#43377));
 #43360=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4',(#43378));
+'cots_Sunon_EF50151BX-1B000-A99 v7','cots_Sunon_EF50151BX-1B000-A99 v7',
+(#43378));
 #43361=PRODUCT_RELATED_PRODUCT_CATEGORY('3d_printed_fan_shroud_pc',
 '3d_printed_fan_shroud_pc',(#43379));
 #43362=APPLICATION_PROTOCOL_DEFINITION('international standard',
@@ -45794,13 +45794,17 @@ ain v1',(#43371));
 #43363=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #43364=PRODUCT_CONTEXT('part definition',#43363,'mechanical');
-#43365=PRODUCT('jetson-agx-thor-baseboard 1',
-'antmicro_enclosure_for_jetson_agx_thor v167',
-'KiCad electronic assembly',(#43364));
-#43366=PRODUCT('cnc_milled_top_cover_al','cnc_milled_top_cover_al',$,(#43364));
-#43367=PRODUCT('cnc_milled_front_panel','cnc_milled_front_panel',$,(#43364));
-#43368=PRODUCT('bottom_mpn','cnc_milled_bottom_shell_al','description',
+#43365=PRODUCT('Configuration 1',
+'antmicro_enclosure_for_jetson_agx_thor v5','KiCad electronic assembly',
 (#43364));
+#43366=PRODUCT('C-JAT-TC-AL-A','cnc_milled_top_cover_al',
+'Top lid providing structural closure and mounting points for fan blow
+ers',(#43364));
+#43367=PRODUCT('C-JAT-FP-AL-A','cnc_milled_front_panel',
+'Front panel serving as primary air inlet and interface surface',(#43364));
+#43368=PRODUCT('C-JAT-BS-AL-A','cnc_milled_bottom_shell_al',
+'Main body with internal PCB mounting points and external enclosure mo
+unting features',(#43364));
 #43369=PRODUCT('DIN 7985 - M4x8-H H Steel 4.6 Plain',
 'Raised Cheese Head Screw DIN 7985 - M4 x 8 - H Steel 4.6 Plain v1',
 'Raised Cheese Head Screw DIN 7985 - M4 x 8 - H',(#43364));
@@ -45813,18 +45817,24 @@ ain v1','Countersunk Head Screw DIN EN ISO 7046-2 - M2.5 x 10 - H',(#43364));
 #43372=PRODUCT('DIN 7985 - M4x18-H H Steel 4.6 Plain',
 'Raised Cheese Head Screw DIN 7985 - M4 x 18 - H Steel 4.6 Plain v1',
 'Raised Cheese Head Screw DIN 7985 - M4 x 18 - H',(#43364));
-#43373=PRODUCT('cnc_milled_som_heatsink_cu',
-'cnc_milled_som_heatsink_cu',$,(#43364));
-#43374=PRODUCT('Lightguides','Lightguides',$,(#43364));
-#43375=PRODUCT('cots_Mentor_1282.1200','cots_Mentor_1282.1200 v2',$,(#43364));
-#43376=PRODUCT('cnc_milled_back_panel_al','cnc_milled_back_panel_al',
-'back inlet ',(#43364));
-#43377=PRODUCT('Cabinet U-Handle, Steel GN 425-6-88-BT',
-'cots_Elesa_Ganter_GN_425-8-88-BT v1','STEP AP214',(#43364));
-#43378=PRODUCT('cots_Sunon_EF50151BX-1B000-A99_sunon',
-'cots_Sunon_EF50151BX-1B000-A99_sunon v4',$,(#43364));
-#43379=PRODUCT('3d_printed_fan_shroud_pc','3d_printed_fan_shroud_pc',$,
+#43373=PRODUCT('C-JAT-SH-CU-N','cnc_milled_som_heatsink_cu',
+'Facilitates heat dissipation from the module to maintain optimal oper
+ating temperatures - use high purity copper for best thermal performan
+ce',(#43364));
+#43374=PRODUCT('Lightguides','Lightguides','LED indicator lightguides',
 (#43364));
+#43375=PRODUCT('1282.1200','cots_Mentor_1282.1200 v6',
+'Transparent plastic light pipe panel-mounted',(#43364));
+#43376=PRODUCT('C-JAT-BP-AL-A','cnc_milled_back_panel_al',
+'Rear panel with vertical ribs for air exhaust',(#43364));
+#43377=PRODUCT('GN 425-6-88-BT','cots_Elesa_Ganter_GN_425-8-88-BT v4',
+'Grip for carrying the enclosure and enabling stacking and clustering',
+(#43364));
+#43378=PRODUCT('EF50151BX-1B000-A99',
+'cots_Sunon_EF50151BX-1B000-A99 v7',
+'12V DC blower fan for enclosure airflow - 50x50x15mm',(#43364));
+#43379=PRODUCT('P-JAT-FS-PC-N','3d_printed_fan_shroud_pc',
+'Directs internal airflow to improve thermal management efficiency',(#43364));
 #43380=PRESENTATION_STYLE_ASSIGNMENT((#43390));
 #43381=PRESENTATION_STYLE_ASSIGNMENT((#43391));
 #43382=PRESENTATION_STYLE_ASSIGNMENT((#43392));

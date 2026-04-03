@@ -11,9 +11,9 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 'cnc-milled-som-heatsink-cu.step',
 /* author */ 'Antmicro',
-/* time_stamp */ '2026-03-30T19:20:29.664653+02:00',
-/* commit_sha */ '$',
-/* commit_msg */ '$',
+/* time_stamp */ '2026-04-03T13:12:30.040890+02:00',
+/* commit_sha */ '579d0a589db48f945909cb300820733f3099312c',
+/* commit_msg */ '[#94115] Add html bom',
 /* generator */ 'stephen',
 /* generator_ver */ '0.0.1');
 
@@ -28,7 +28,7 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7= PRODUCT('cnc_milled_som_heatsink_cu','cnc_milled_som_heatsink_cu', '$',(#8));
+#7= PRODUCT('C-JAT-SH-CU-N','cnc_milled_som_heatsink_cu', 'Facilitates heat dissipation from the module to maintain optimal operating temperatures - use high purity copper for best thermal performance',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#10121);
