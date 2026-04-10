@@ -11,9 +11,9 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 'raised-cheese-head-screw-din-7985-m4-x-18-h-steel-4-6-plain-v1.step',
 /* author */ 'Antmicro',
-/* time_stamp */ '2026-04-03T13:12:30.040890+02:00',
-/* commit_sha */ '579d0a589db48f945909cb300820733f3099312c',
-/* commit_msg */ '[#94115] Add html bom',
+/* time_stamp */ '2026-04-10T14:20:06.931432+02:00',
+/* commit_sha */ 'eddb39f28ccbc5f8daa44304dfdfea7f8db63fb1',
+/* commit_msg */ '[#94115] Update part description',
 /* generator */ 'stephen',
 /* generator_ver */ '0.0.1');
 
@@ -28,7 +28,7 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7= PRODUCT('DIN 7985 - M4x18-H H Steel 4.6 Plain','Raised Cheese Head Screw DIN 7985 - M4 x 18 - H Steel 4.6 Plain v1', 'Raised Cheese Head Screw DIN 7985 - M4 x 18 - H',(#8));
+#7 = PRODUCT('DIN 7985 - M4x18-H H Steel 4.6 Plain','Raised Cheese Head Screw DIN 7985 - M4 x 18 - H Steel 4.6 Plain v1','Raised Cheese Head Screw DIN 7985 - M4 x 18 - H',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#2297);
